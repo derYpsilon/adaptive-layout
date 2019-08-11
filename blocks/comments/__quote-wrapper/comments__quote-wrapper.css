@@ -1,0 +1,12 @@
+@media screen and (max-width: 1023px) {
+    .comments__quote-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 47px;
+    }
+}
+
+.comments__quote-wrapper:last-of-type {
+    margin-bottom: 0;
+}

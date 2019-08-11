@@ -1,0 +1,28 @@
+.intro__content-row {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 283px;
+    grid-column-gap: 18px;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro__content-row {
+        grid-template-columns: 1fr 220px;
+        grid-column-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__content-row {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 0 0 0;
+        align-items: stretch;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__content-row {
+        margin: 22px 0 0 0;
+    }
+}

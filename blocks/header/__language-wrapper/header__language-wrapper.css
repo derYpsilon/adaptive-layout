@@ -1,0 +1,12 @@
+.header__language-wrapper {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 17px;
+}
+
+@media screen and (max-width: 374px) {
+    .header__language-wrapper {
+        font-size: 1.12rem;
+        line-height: 1;
+    }
+}

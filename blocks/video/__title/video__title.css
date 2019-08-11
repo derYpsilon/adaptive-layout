@@ -1,0 +1,46 @@
+.video__title {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 30px;
+    bottom: 61px;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 1.08;
+    width: 310px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1279px)
+{
+    .video__title {
+        left: 30px;
+        bottom: 66px;
+    }
+}
+
+@media screen and (max-width: 1023px)
+{
+    .video__title {
+        left: 24px;
+        bottom: 52px;
+        font-size: 1.5rem;
+        line-height: 1.08;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .video__title {
+        left: 24px;
+        bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 374px)
+{
+    .video__title {
+        left: 16px;
+        bottom: 40px;
+    }
+}

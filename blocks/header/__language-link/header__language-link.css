@@ -1,0 +1,11 @@
+@import url(./_selected/header__language-link_selected.css);
+
+.header__language-link {
+    margin: 0 0 0 18px;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+

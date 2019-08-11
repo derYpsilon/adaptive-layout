@@ -1,0 +1,25 @@
+@import url(./__logo/header__logo.css);
+@import url(./__logo-link/header__logo-link.css);
+@import url(./__language-wrapper/header__language-wrapper.css);
+@import url(./__language-link/header__language-link.css);
+
+
+.header {
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .header {
+        height: 42px;
+    }
+}

@@ -1,0 +1,17 @@
+.emblem__image {
+    height: 226px;
+    border: 0px;
+}
+
+@media screen and (max-width: 1279px) {
+    .emblem__image {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .emblem__image {
+        height: 226px;
+    }
+}
+

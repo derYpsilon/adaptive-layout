@@ -1,0 +1,19 @@
+/* Подключаем шрифт */
+@import url(../vendor/fonts.css);
+/* Подключаем normalize */
+@import url(../vendor/normalize.css);
+/* Подключаем необходимые блоки */
+@import url(../blocks/header/header.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/additional/additional.css);
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/emblem/emblem.css);
+@import url(../blocks/barentsburg/barentsburg.css);
+@import url(../blocks/footer/footer.css);
+/* Подключаем базовую разметку страницы и стили */
+@import url(../blocks/mainframe/mainframe.css);
